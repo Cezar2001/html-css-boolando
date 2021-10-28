@@ -24,6 +24,7 @@ body{
 img {
     width: 100%;
     vertical-align: middle;
+    
 }    
 
 .nascosta {
@@ -32,8 +33,24 @@ img {
     
 }
 
-.default :hover {
+.default :hover{
     display: none;
-    background: url(/img/1b.webp);
+}
+
+.default :hover img {
+    display: block;
     
+}  
+
+.default :hover {
+    width: 100%;
+    display: none;
+}
+
+.default:hover {
+    background: url(/img/1b.webp);
+}
+
+.default:hover  {
+    display: block;
 }
