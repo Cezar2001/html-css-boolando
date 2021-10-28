@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(226, 226, 226);
+}
+
+.container {
+    width: 1600px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.default {
+    display: inline-block;
+    width: 32%;
+    padding: 30px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+}    
+
+.nascosta {
+    width: 100%;
+    position: relative;
+    
+}
+
+.default :hover {
+    display: none;
+    background: url(/img/1b.webp);
+    
+}
