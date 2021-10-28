@@ -21,12 +21,13 @@ body{
     position: relative;
 }
 
-.vista :hover{
+.vista:hover {
     display: none;
     
 }
 
-.nascosta :hover{
-    display: block;
+.nascosta {
+    display: inline-block;
 }
+
 
