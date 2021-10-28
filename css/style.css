@@ -14,43 +14,19 @@ body{
     margin: 0 auto;
 }
 
-.default {
+.default img{
     display: inline-block;
     width: 32%;
     padding: 30px;
     position: relative;
 }
 
-img {
-    width: 100%;
-    vertical-align: middle;
-    
-}    
-
-.nascosta {
-    width: 100%;
-    position: relative;
-    
-}
-
-.default :hover{
+.vista :hover{
     display: none;
-}
-
-.default :hover img {
-    display: block;
     
-}  
-
-.default :hover {
-    width: 100%;
-    display: none;
 }
 
-.default:hover {
-    background: url(/img/1b.webp);
-}
-
-.default:hover  {
+.nascosta :hover{
     display: block;
 }
+
