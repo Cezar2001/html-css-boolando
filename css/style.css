@@ -9,25 +9,103 @@ body{
 }
 
 .container {
-    width: 1600px;
+    width: 1200px;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
+    text-align: center;
 }
 
-.default img{
-    display: inline-block;
-    width: 32%;
-    padding: 30px;
+img{
+    width: 300px;
+    height: 450px;
     position: relative;
 }
 
-.vista:hover {
-    display: none;
-    
+.card {
+    display: inline-block;
+    width: calc(1200 / 3);
+    position: relative;
+    padding: 25px 10px 30px 0;
 }
 
-.nascosta {
+ .off {
+    display: none;
+ }
+
+ .on {
     display: inline-block;
+ }
+
+ .card:hover .off {
+    display: inline-block;
+ }
+
+ .card:hover .on {
+     display: none;
+  }
+   
+.sconto{
+    background-color: crimson;
+    color: white;
+    width: 40px;
+    position: absolute;
+    top: 440px; 
 }
+
+.sostenibilità{
+    background-color: rgb(2, 153, 2);
+    color: white;
+    width: 90px;
+    position: absolute;
+    top: 440px;
+    left: 45px;
+}
+
+.sostenibilita{
+    background-color: rgb(2, 153, 2);
+    color: white;
+    width: 90px;
+    position: absolute;
+    top: 440px;
+}
+
+.cuore{
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 45px;
+    left: 265px;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.scritta{
+    text-align: left;
+    font-size: 15px;
+}
+
+.scritta-1{
+    color: grey;
+}
+
+.scritta-2{
+    color:rgb(241, 35, 35);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#scritta-3{
+    text-decoration: line-through;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
 
 
